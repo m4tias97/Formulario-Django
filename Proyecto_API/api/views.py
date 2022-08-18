@@ -13,7 +13,7 @@ from hubspot.crm.contacts import SimplePublicObjectInput
 
 
 def crear(nombre, apellido, email, celular):
-  api_client = HubSpot(access_token= 'pat-na1-a677ee48-431f-488d-bfa4-f3abc2cb5b5c')
+  api_client = HubSpot(access_token= 'token')
 
   all_contacts = api_client.crm.contacts.get_all()
 
